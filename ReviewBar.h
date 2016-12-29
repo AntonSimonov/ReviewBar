@@ -22,7 +22,7 @@ By default shows only (no user interaction)
 // CALL INIT METHOD AFTER ALLOCATION
 -(id) initWithFrame:(CGRect)frame andImage:(UIImage*) image;
 // SET RATING SCORE !USE THIS IF YOU WANT TO USE REVIEW BAR AS DISPLAY
--(void) setRatingScore:(double)score;
+-(void) setScore:(double)score;
 // CALL makeSelectable AFTER ALLOCATION TO USE REVIEW BAR AS INPUT  (GET USER RATING)
 -(void) makeSelectable;
 
