@@ -23,7 +23,7 @@
     return self;
 }
 
--(void) setRatingScore:(double)score
+-(void) setScore:(double)score
 {
     int whole = score;
     float decimal = fmod(score, 1.0);
