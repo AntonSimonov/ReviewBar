@@ -27,7 +27,7 @@
 {
     int whole = score;
     float decimal = fmod(score, 1.0);
-    int currentX = self.frame.origin.x;
+    int currentX = self.bounds.origin.x;
     UIImageView * iv;
     int prop = self.frame.size.width/max;
 
