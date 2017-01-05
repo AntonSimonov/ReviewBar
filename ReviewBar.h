@@ -26,7 +26,7 @@ By default shows only (no user interaction)
 // CALL makeSelectable AFTER ALLOCATION TO USE REVIEW BAR AS INPUT  (GET USER RATING)
 -(void) makeSelectable;
 
-//HELPING REUSABLE FUNCTIONS FOR USER INTERACTION
+//FUNCTIONS FOR USER INTERACTION
 - (IBAction)selectRating:(id)sender;
 - (void) deselectAll;
 
