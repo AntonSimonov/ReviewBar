@@ -18,6 +18,7 @@ By default shows only (no user interaction)
 @property NSInteger rating;
 @property UIImage * img;
 @property NSInteger max;
+@property bool isSelected;
 
 // CALL INIT METHOD AFTER ALLOCATION
 -(id) initWithFrame:(CGRect)frame andImage:(UIImage*) image;
