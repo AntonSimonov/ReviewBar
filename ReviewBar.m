@@ -11,7 +11,7 @@
 #define   DEGREES_TO_RADIANS(degrees)  ((3.14159265359 * degrees)/ 180)
 
 @implementation ReviewBar
-@synthesize img,rating,max;
+@synthesize img,rating,max,isSelected;
 
 -(id) initWithFrame:(CGRect)frame andImage:(UIImage*) image {
 
@@ -20,6 +20,7 @@
     self.img = image;
     rating = 5;
     max = 5;
+    isSelected = false;
     return self;
 }
 
