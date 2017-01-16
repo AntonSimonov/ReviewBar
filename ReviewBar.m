@@ -77,7 +77,7 @@
 }
 
 - (IBAction)selectRating:(id)sender{
-    
+    isSelected = true;
     UITapGestureRecognizer * ob = sender;
     UIImageView * im = (UIImageView*) [ob view];
     long tag = [im tag];
