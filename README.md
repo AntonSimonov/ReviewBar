@@ -28,5 +28,5 @@ Alllocate and initialaze ReviewBar instance. <br>
 > If you want to use ReviewBar as input
 
 * Call `-(void)makeSelectable;` method to handle taps.
-* Check if user set the rating `-(bool)isSelected;`
+* Check if user setted the rating `-(bool)isSelected;`
 * Get the result with `-(double)getRating;`
