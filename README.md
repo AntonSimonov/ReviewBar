@@ -1,6 +1,30 @@
 # ReviewBar
 Subclass of UIView. Displays review score or get score from user.
 
+EXAMPLE
+<br>
+I used this star image
+<br>
+![](https://github.com/AntonSimonov/ReviewBar/blob/master/star.png?raw=true)
+<br>
+3.7
+<br>
+![](https://github.com/AntonSimonov/ReviewBar/blob/master/3_7.png?raw=true)
+<br>
+4
+<br>
+![](https://github.com/AntonSimonov/ReviewBar/blob/master/4.png?raw=true)
+<br>
+4.3
+<br>
+![](https://github.com/AntonSimonov/ReviewBar/blob/master/4_3.png?raw=true)
+<br>
+4.5
+<br>
+![](https://github.com/AntonSimonov/ReviewBar/blob/master/4_5.png?raw=true)
+<br>
+
+
  **How to use:**
 
 ## 1
