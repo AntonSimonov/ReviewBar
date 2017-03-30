@@ -31,7 +31,7 @@ I used this star image
    Add ReviewBar class to your project directory.
 ## 2
    Import ReviewBar where you want to use it.
-   `#import "ReviewBar.h";`
+   `#import "ReviewBar.h"`
 ## 3
 Alllocate and initialaze ReviewBar instance. <br>
  (Must use `-(id)initWithFrame:(CGRect)frame;` method)<br>
