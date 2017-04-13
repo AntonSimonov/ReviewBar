@@ -33,17 +33,15 @@ I used this star image
    Import ReviewBar where you want to use it.
    `#import "ReviewBar.h"`
 ## 3
-Alllocate and initialaze ReviewBar instance. <br>
- (Must use `-(id)initWithFrame:(CGRect)frame;` method)<br>
-`ReviewBar * rBar = [[ReviewBar alloc]initWithFrame:yourFrame];`
+Alllocate and initialaze ReviewBar instance, set star image you want. <br>
+ (Must use `-(id) initWithFrame:(CGRect)frame andImage:(UIImage*) image;` method)<br>
+`ReviewBar * rBar = [[ReviewBar alloc]initWithFrame:yourFrame andImage:[UIImage imageNamed:@"star.png"]];`
+<br> **!NOTE:** The image has to be right square (width = height)
 ## 4
-  Set star image you want. `[rBar setImage:[UIImage imageNamed:@"star.png"]];`
-  <br> **!NOTE:** The image has to be right square (width = height)
-## 5
   Use `-(void)setScore:(double score);` method to change rating score you want to display.
   <br>`[rBar setScore:3.7f];`
 
-## 6
+## 5
    Add ReviewBar to desired view
    `[view addSubview:rBar];`
 
